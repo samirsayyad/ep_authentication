@@ -12,7 +12,7 @@ const globalUser = (()=>{
             return (Math.random() * 16 | 0).toString(16);
         }).toLowerCase();
     };
-    const getUser =function(){
+    const getUserId =function(){
         let userId = localStorage.getItem('client_id');
         if (!userId)
             return createUser();
@@ -22,6 +22,6 @@ const globalUser = (()=>{
         createUser,
         getUser
     }
-})
+})()
 
 globalUser.createUser()
