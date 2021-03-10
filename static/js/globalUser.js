@@ -20,7 +20,7 @@ const globalUser = (()=>{
     }
     return{
         createUser,
-        getUser
+        getUserId
     }
 })()
 
