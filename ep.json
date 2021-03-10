@@ -1,0 +1,14 @@
+{
+	"parts":[
+		{
+			"name":"authentication",
+			"client_hooks":{
+
+			},
+			"hooks":{
+	
+
+			}
+		}
+	]
+}

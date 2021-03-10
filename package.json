@@ -1,0 +1,23 @@
+{
+  "name": "ep_authentication",
+  "version": "0.0.1",
+  "description": "user mechnism replace of Etherpad user id that used socket id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samirsayyad/ep_authentication.git"
+  },
+  "keywords": [
+    "Etherpad",
+    "plugins"
+  ],
+  "author": "Samir Sayyad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samirsayyad/ep_authentication/issues"
+  },
+  "homepage": "https://github.com/samirsayyad/ep_authentication#readme"
+}
